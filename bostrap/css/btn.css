@@ -1,0 +1,58 @@
+/*button nya bisa kita kostum */
+.btn-primary{
+    background: palevioletred;
+    border: 0;
+    /*top right buttom left */
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+.btn-primary:hover {
+    background: rgb(175, 78, 109);
+    border: 0;
+}
+
+/*bikin btn ke 2 */
+.btn-secondary{
+    background: none;
+    /*borde nya 1 garis nya solid */
+    border: 1px solid;
+    /*top right buttom left */
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(112, 109, 109);
+} 
+
+/*ini hover nya di mainin  */
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid;
+    color: rgb(0, 0, 0);
+}
+
+.herobwa h1{
+    font-family: 'Poppins';
+    font-weight: bold;
+    
+}
+
+.herobwa p{
+    font-family: 'Poppins';
+    font-weight: 300;
+    
+}
+
+
+/*INI UNTUK RESPONSIVE UKURAN DI SESUAIKAN HP */
+@media only screen and (max-width: 768px) {
+    /*yang dipanggil 2 fungsi itu*/
+   .btn-primary,.btn-secondary{
+       /*pake margin biar ga me;pet */
+       margin-top: 10px;
+       /*importan biar bisa*/
+       margin-left: 0 !important; 
+   } 
+}
+

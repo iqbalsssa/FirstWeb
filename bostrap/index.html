@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---Menghubungkan ke file bostrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--BIKIN LINK INI UNTUK SAMBUNGIN AGAR BISA CUSTOM BUTTON BOTSRAP-->
+    <link rel="stylesheet" href="css/btn.css">
+    <!--INI LINK UNTUK NYAMBUNGIN HURUF-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <!--INI NAVIGASI PAKE BOOSTRAP-->
+     <!--py -4 itu ngatur padding vertical biar sejajaar-->
+     <nav class="navbar py-4 navbar-expand-lg navbar-light ">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png" width="187" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active align-self-center">
+                      <a class="nav-link" href="#">Product <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                      <a class="nav-link" href="#">Customers</a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                      <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item align-self-center">
+                      <a class="nav-link" href="#">Resources</a>
+                  </li>
+                   <!--PX vertikal PY horizontal itu untuk ngatur button-->
+              <a class="btn px-4 py-2 btn-secondary ml-5 "href="#" role="button">Sign Up</a>
+              <a class="btn px-4 py-2 btn-primary ml-2"href="#" role="button">Sign Up</a>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <section class="herobwa mt-5">
+         <!---ini adalah induk atau parrent-->
+        <div class="container">
+            <!---ini buat div row nya-->
+            <div class="row">
+                <!---div di dalam row dibagi 2 karna nanti di halaman ada 2 row-->
+
+                <!---kolom kiri-->
+                <!---konten nya jadi rata ke tengah jadi ga ke atas lagi sama ama kolom kanan-->
+                <div class="col align-self-center">
+                    <!--MT MB ADALAH MARGIN TOP DAN MARGIN BOTTON -4 ITU ANGKA POSISI JARAKNYA-->
+                    <h1 class="mb-4">HALO INI IQBAL</h1>
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quibusdam nisi sint iure aliquid optio corporis at, numquam tenetur ipsa odio labore nemo possimus debitis fugit in incidunt adipisci libero?</p>
+                    <a class="btn btn-primary "href="#" role="button">PENCET</a>
+                </div>
+                <!---colom kanan-->
+                <!---d none untuk responsive-->
+                <div class="col d-none d-sm-block">
+                    <img width="600" src="images/hero-icon.png" alt="">
+                </div>
+            </div>
+        </div>  
+    </section>
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
